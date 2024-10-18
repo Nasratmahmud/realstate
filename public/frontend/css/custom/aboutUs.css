@@ -1,0 +1,516 @@
+/*
+    =========================================
+    about us page responsive
+    strat hare
+    =========================================
+*/
+
+
+/* =============================================== About Us Css Start Hare ================================== */
+
+ol, ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* common css end */
+.nr--sub--heading {
+    color: var(--black);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nr--text--headText {
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nr--common--peraText {
+    color: var(--gray-1);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* common css end */
+
+.nr--aboutUs--wrapper {
+    padding: 90px 0;
+    position: relative;
+}
+
+.nr--aboutUs--wrapper::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #DFE3E8;
+    width: 60%;
+    height: 2px;
+}
+
+.nr--aboutUs--frame {
+    height: 450px;
+    width: 365px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.nr--about--US--header {
+    margin-bottom: 64px;
+}
+
+
+.nr--aboutUs--content--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 105px;
+    -moz-column-gap: 105px;
+    column-gap: 105px;
+}
+
+.nr--aboutUs--left--content--img {
+    width: 620px;
+    height: 420px;
+    border-radius: 24px;
+}
+
+.nr--aboutUs--left--content--img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.nr--aboutUs--left--content--text {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.nr--cameronWilliamson {
+    color: var(--primary--water);
+    font-family: 'Creattion';
+    font-size: 44.462px;
+    font-weight: 400;
+}
+
+
+
+.nr--aboutUs--right--content--text--contents {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.nr--aboutUs--right--content ul li {
+    color: var(--gray-1);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    list-style-type: disc;
+}
+
+.nr--aboutUs--right--content--list {
+    color: var(--gray-1);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    list-style-type: disc;
+}
+
+/* =============================================== About Us Css End Hare ================================== */
+
+
+
+
+/* =============================================== Our Mission Css Start Hare ================================== */
+.nr--OurMisson--wrapper {
+    padding: 90px 0;
+    position: relative;
+}
+
+.nr--OurMisson--wrapper::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #DFE3E8;
+    width: 60%;
+    height: 2px;
+}
+
+.nr--aboutUs--frame--mission {
+    height: 450px;
+    width: 365px;
+    position: absolute;
+    right: -96px;
+    bottom: 0;
+}
+
+.nr--our--mission--header {
+    text-align: end;
+    margin-bottom: 64px;
+}
+
+.nr--our--mission--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 105px;
+    -moz-column-gap: 105px;
+    column-gap: 105px;
+}
+
+.nr--our--mission--photo {
+    width: 620px;
+    height: 525px;
+    border-radius: 24px;
+}
+
+.nr--our--mission--photo img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.nr--our--mission--left--content--text--wrapper {
+    margin-top: 16px;
+}
+
+.nr--our--mission--left--content--item {
+    padding: 24px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    position: relative;
+}
+
+.nr--our--mission--left--content--item::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #DFE3E8;
+}
+
+.nr--our--mission--left--content--item:last-child::after {
+    display: none;
+}
+
+.nr--our--mission--left--icon {
+    height: 48px;
+    width: 48px;
+}
+
+.nr--our--mission--left--icon svg {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.nr--our--mission--left--texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+/* =============================================== Our Mission Css End Hare ================================== */
+
+
+
+/* =============================================== Achivement Css Strat Hare ================================== */
+.nr--achivement--wrapper {
+    padding: 90px 0;
+    position: relative;
+}
+
+.nr--achivement--wrapper::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #DFE3E8;
+    width: 60%;
+    height: 2px;
+}
+
+.nr--achivement--inner--wrapper {
+    padding: 66px 120px;
+    border-radius: 24px;
+    background: #F6F6F6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.nr--achivement--inner--item {
+    position: relative;
+}
+
+.nr--achivement--inner--item::after {
+    position: absolute;
+    content: '';
+    right: -114px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: var(--primary--water);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.nr--achivement--inner--item:last-child::after {
+    display: none;
+}
+
+.nr--achivement--texts {
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+/* =============================================== Achivement Css End Hare ================================== */
+
+
+
+/* =============================================== What Clients Say Start Hare ================================== */
+.nr--whatOur--clinet--wrapper {
+    padding: 90px 0;
+    position: relative;
+}
+
+.nr--whatOur--clinet--wrapper::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #DFE3E8;
+    width: 60%;
+    height: 2px;
+}
+
+.nr--whatOur--clinetSay--headers {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.nr--whatOur--clinetSay--slieder--wrapper {
+    position: relative;
+}
+
+.nr--whatOur--clinetSay--slieder--item {
+    width: 1088px;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+}
+
+.nr--whatOur--clinetSay--slieder--item--photo--text--wrapper {
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 48px;
+    -moz-column-gap: 48px;
+    column-gap: 48px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nr--whatOur--clinetSay--slieder--item--photo--text--inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    position: relative;
+}
+
+.nr--whatOur--clinetSay--slieder--item--photo--text--inner::after {
+    position: absolute;
+    content: '';
+    right: -24px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #DFE3E8;
+    width: 1px;
+    height: 40px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--photo {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
+.nr--whatOur--clinetSay--slieder--item--photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nr--whatOur--clinetSay--text {
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--svg--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 4px;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--svg {
+    height: 24px;
+    width: 24px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--svg svg {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.nr--whatOur--clinetSay--slieder--item--frameOne {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 28px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--frameOne img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.nr--whatOur--clinetSay--slieder--item--frameTwo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 28px;
+}
+
+.nr--whatOur--clinetSay--slieder--item--frameTwo img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* owl customization */
+.owl-carousel.owl-theme.custom {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.owl-carousel.owl-theme.custom .item {
+    width: 100%;
+}
+
+
+.owl-carousel .owl-nav button.owl-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav button.owl-next:hover svg {
+    fill: rgba(41, 187, 238, 0.1);
+    stroke: var(--primary--water);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover svg {
+    fill: rgba(41, 187, 238, 0.1);
+    stroke: var(--primary--water);
+}
+
+/* owl customization */
+
+
+/* =============================================== What Clients Say End Hare ================================== */
+
+
+
+/*
+    =========================================
+    about us page responsive
+    end hare
+    =========================================
+*/

@@ -1,0 +1,158 @@
+/* ============================= company information page css strat hare ========================= */
+.company--logo--header{
+    padding: 40px 0;
+}
+.company--logo--img{
+    width: 109px;
+    height: 92px;
+}
+.company--logo--img svg{
+    height: 100%;
+    width: 100%;
+}
+
+
+.company--information--wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0 80px 0;
+    position: relative;
+}
+.company--information--freameOne {
+    width: 280px;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    bottom: 300px;
+}
+.company--information--freameTwo {
+    Width: 280px;
+    Height: 470px;
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+.company--information--freameOne img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.company--information--header--texts{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+}
+.company--information--header--texts p{
+    width: 780px;
+    text-align: center;
+}
+
+.company--info--form--wrapper {
+    margin-top: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+}
+
+.nr--company--input--main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 12px;
+}
+.nr--comapny--name--input{
+    width: 878px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-right: 20px;
+}
+.nr--comapny--name--input input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 16px;
+}
+
+
+.nr--names--input--main--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
+}
+.nr--first--name--input{
+    width: 427px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-1);
+    padding-right: 20px;
+}
+.nr--first--name--input input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 16px;
+}
+.nr--comapny--name--input textarea{
+    width: 100%;
+    height: 133px;
+    background-color: transparent;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 16px;
+    resize: none;
+}
+.company--submit--btn{
+    width: 878px;
+}
+/* ============================= company information page css End hare ========================= */

@@ -1,0 +1,286 @@
+
+/* =================================================== Payment Page Start Hare ===================================== */
+
+.payment--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.payment--left{
+    padding: 82px 30px 82px 200px;
+}
+.payment--header{
+    position: relative;
+    padding-bottom: 24px;
+}
+.payment--header::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #DFE3E8;
+}
+.payment--with--wrapper{
+    padding-top: 24px;
+}
+.payment--subheader{
+    color: var(  --black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.checkbox--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 32px;
+       -moz-column-gap: 32px;
+            column-gap: 32px;
+}
+.payment--checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+.payment--checkbox[type="radio"] {
+    border: 2px solid #637381;
+}
+.payment--checkbox[type="radio"]:checked {
+    accent-color: var(--black);
+}
+.card--input--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 5px;
+       -moz-column-gap: 5px;
+            column-gap: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 12px;
+}
+.lebel--text{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.payment--info--wrapper{
+    padding: 32px;
+    -webkit-box-shadow: 0px 8px 40px 0px rgba(55, 51, 167, 0.10);
+            box-shadow: 0px 8px 40px 0px rgba(55, 51, 167, 0.10);
+    border-radius: 24px;
+    margin-top: 32px;
+}
+.cards--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.visa--card{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.visa--card svg{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.card--inputInfo--wrapper {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+.payment--expaird--number--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.nr--email--input.payDate{
+    width: 360px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+}
+.nr--email--input.payDate input{
+    width: 98%;
+}
+
+
+.nr--email--input.customss{
+    width: 745px;
+}
+.checkboxStyle.Two{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.nr--input--intrestCheckbox.two{
+    margin-top: 32px;
+}
+.nr--input--firstCheckboxs.customss{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
+}
+.checkBoxInput.two[type="checkbox"] {
+    height: 17px;
+    width: 17px;
+    border: 1px solid rgba(41, 187, 238, 1);
+}
+
+.paynow--btn{
+    margin-top: 90px;
+}
+.payNowbtn{
+    color: #FFF;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--black);
+    width: 340px;
+    border-radius: 68px;
+    border: none;
+    padding: 8px 0;
+}
+
+.payment--right {
+    background: #F1FAFE;
+    padding: 82px 200px 82px 30px;
+    width: 100%;
+}
+
+.addcard--item.two{
+    padding-left: 10px;
+}
+.cartphoto.two{
+    height: 100px;
+    width: 100px;
+}
+.addcartTexts.two{
+    font-size: 16px;
+}
+.product--details--right--details--counter.two{
+    padding: 10px 20px;
+    background-color: #919EAB;
+}
+.counter--up.two{
+    background-color: #919EAB;
+}
+.counter--down.two{
+    background-color: #919EAB;
+}
+.ptoduct--details--right--header.two{
+    color:  #637381;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+
+.pricetable--main{
+    width: 350px;
+    margin: 0 auto;
+}
+.priceTable--wrapper{
+    width: 100%;
+    margin-top: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+    position: relative;
+    padding-bottom: 80px;
+}
+.priceTable--wrapper::after {
+    position: absolute;
+    content: '';
+    width: 590px;
+    height: 2px;
+    left: -89px;
+    bottom: 30px;
+    background-color: #DFE3E8;
+}
+.total--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+}
+.priceTable--text{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.priceTable--price{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.priceTableTotal--price{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px; 
+}
+/* =================================================== Payment Page End Hare ===================================== */

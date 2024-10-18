@@ -1,0 +1,278 @@
+
+
+/* ============================== Profile Edit Page Strat Hare ================================= */
+
+
+.profile--edit--wrapper{
+    padding: 90PX 0;
+}
+.profile--wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.profile--overview{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.profile--profile--pic{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+}
+.profile--profile--pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.profile--userName--main h4{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.profile--userName--main h5{
+    color: #637381;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.partner--details--item.profileEdit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+}
+.partner--details--item.profileEdit:hover{
+    background-color: #F6FCFE;
+    border: 1px solid #29BBEE;
+}
+
+
+
+
+.main--profile--area--wrapper{
+    position: relative;
+    padding-bottom: 90px;
+}
+.main--profile--area--wrapper::after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background-color: #DFE3E8;
+}
+.profile--navss--left{
+    width: 194px;
+}
+.nav.customss{
+    width: 100%;
+    row-gap: 20px;
+    padding-bottom: 27px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    position: relative;
+}
+.nav.customss::after {
+    position: absolute;
+    content: '';
+    left: 15px;
+    bottom: 0;
+    height: 2px;
+    width: 95%;
+    background-color: #DFE3E8;
+}
+
+.nav-link.custom{
+    color: #637381;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; 
+}
+.nav-link.custom.active{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px; 
+}
+.nav-link.custom.active::after{
+    display: none;
+}
+
+.log--out--btn{
+    padding: 27px 10px;
+}
+.log--out--btn--profile--edit{
+    color: #FF4842;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+
+
+.profile--navss--right{
+    margin: 0 auto;
+}
+
+.profile--inner--wrapper--main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.profile--adjuster{
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    position: relative;
+}
+.profile--inner--profile--pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile--inner--profile--pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+
+.profile--adjuste-profile--editor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.profile--adjuste-profile--svg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    background-color: #29BBEE;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    padding-bottom: 12px;
+}
+.profile--adjuste-profile--svg--svg{
+    width: 19.052px;
+    height: 19.052px;
+}
+.profile--adjuste-profile--svg--svg svg{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.profile--editor--inputs--wrapper{
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 32px;
+}
+.profile--editor--full--name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 12px;
+}
+.profile--editor--full--name label{
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.profile--editor--full--name input{
+    padding: 12px 20px;
+    width: 624px;
+    border: 0.5px solid #637381;
+    background: #FCFCFC;
+    border-radius: 16px;
+}
+.profile--editor--inputs--saveBtn{
+    margin-top: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+
+}
+.profile--editor--inputs--saveBtn button{
+    width: 270px;
+    padding: 8px 0;
+    border-radius: 68px;
+    background: var(--black);
+    border: none;
+    color: #FFF;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* ============================== Profile Edit Page End Hare ================================= */
